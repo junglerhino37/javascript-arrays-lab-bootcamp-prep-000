@@ -3,7 +3,7 @@ var kittens=["Milo", "Otis", "Garfield"]
 
 destructivelyAppendKitten(kittens,1)
 
-function destructivelyAppendKitten(x,y){
+function destructivelyAppendKitten(y){
   x.push(y)
   console.log(x)
   return x
