@@ -1,7 +1,7 @@
 const app = "I don't do much.";
 var kittens=["Milo", "Otis", "Garfield"];
 
-destructivelyAppendKitten(1);
+removeLastKitten()
 
 function destructivelyAppendKitten(y){
   return  kittens.push(y)
@@ -21,5 +21,6 @@ function destructivelyRemoveLastKitten(x){
 
 function removeLastKitten(){
  x=kittens.slice(0,kittens.length-1)
+ console.log(x)
  return  x
 }
