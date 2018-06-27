@@ -7,8 +7,8 @@ function destructivelyAppendKitten(y){
   return  kittens.push(y)
 }
 
-function destructivelyPrependKitten(x,y){
-  x.unshift(y);
+function destructivelyPrependKitten(y){
+  kittens.unshift(y);
   console.log(x);
   return x;
 }
