@@ -20,7 +20,7 @@ function destructivelyRemoveLastKitten(x){
 }
 
 function removeLastKitten(){
- x=kittens.slice(0,kittens.length-1)
+ var x=kittens.slice(0,kittens.length-1)
  console.log(x)
  return  x
 }
