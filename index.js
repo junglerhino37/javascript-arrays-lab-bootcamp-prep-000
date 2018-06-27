@@ -16,7 +16,7 @@ function destructivelyPrependKitten(x,y){
 }
 
 function removeFirstKitten(x){
-  z=x.slice(1)
+  z=x.slice(1);
   console.log(z);
   return z;
 }
