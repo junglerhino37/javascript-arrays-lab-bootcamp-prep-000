@@ -9,3 +9,8 @@ function destructivelyAppendKitten(x,y){
   return x
 }
 
+function destructivelyPrependKitten(x,y){
+  x.unshift(y)
+  console.log(x)
+  return x
+}
