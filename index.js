@@ -1,10 +1,10 @@
 const app = "I don't do much.";
 var kittens=["Milo", "Otis", "Garfield"];
 
-destructivelyAppendKitten(kittens,1);
+destructivelyAppendKitten(1);
 
-function destructivelyAppendKitten(x,y){
-  x.push(y);
+function destructivelyAppendKitten(y){
+ kittens.push(y);
   console.log(x);
   return x;
 }
