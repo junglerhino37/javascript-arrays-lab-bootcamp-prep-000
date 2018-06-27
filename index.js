@@ -5,8 +5,7 @@ destructivelyAppendKitten(kittens,1)
 
 function destructivelyAppendKitten(x,y){
   x.push(y)
-console.log(x)
-
+  console.log(x)
   return x
 }
 
