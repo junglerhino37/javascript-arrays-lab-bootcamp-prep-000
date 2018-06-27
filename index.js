@@ -26,3 +26,7 @@ function removeLastKitten(){
 function prependKitten(y){
   return [y,...kittens]
 }
+
+function AppendKitten(y){
+  return [...kittens,y]
+}
