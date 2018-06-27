@@ -20,6 +20,6 @@ function destructivelyRemoveLastKitten(x){
 }
 
 function removeLastKitten(){
- kittens.pop()
+ kittens.slice(0,kittens.length-1)
  return  kittens
 }
