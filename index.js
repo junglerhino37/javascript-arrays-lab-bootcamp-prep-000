@@ -4,9 +4,8 @@ var kittens=["Milo", "Otis", "Garfield"];
 destructivelyAppendKitten(1);
 
 function destructivelyAppendKitten(y){
- x=kittens.push(y);
-  console.log(x);
-  return x;
+
+  return  kittens.push(y)
 }
 
 function destructivelyPrependKitten(x,y){
