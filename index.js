@@ -12,7 +12,5 @@ function destructivelyPrependKitten(y){
 }
 
 function removeFirstKitten(x){
-  z=x.slice(1);
-  console.log(z);
-  return z;
+  return kittens.slice(1)
 }
